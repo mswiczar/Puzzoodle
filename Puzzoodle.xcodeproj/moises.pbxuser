@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 1666}}";
+			sepNavSelRange = "{2551, 47}";
+			sepNavVisRange = "{2157, 1064}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Puzzoodle */ = {
+		activeExec = 0;
+		executables = (
+			808F74CE0F87EF9900E2ADC6 /* Puzzoodle */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 808F74CE0F87EF9900E2ADC6 /* Puzzoodle */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Puzzoodle */;
+		codeSenseManager = 808F74DA0F87EFB700E2ADC6 /* Code sense */;
+		executables = (
+			808F74CE0F87EF9900E2ADC6 /* Puzzoodle */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					463,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275908614;
+			PBXWorkspaceStateSaveDate = 275908614;
+		};
+		perUserProjectItems = {
+			802319990FB86C230086F2FA /* PBXTextBookmark */ = 802319990FB86C230086F2FA /* PBXTextBookmark */;
+			80231B0E0FB88B670086F2FA /* PBXTextBookmark */ = 80231B0E0FB88B670086F2FA /* PBXTextBookmark */;
+			8039F7E70FFE6C210007218B /* PBXTextBookmark */ = 8039F7E70FFE6C210007218B /* PBXTextBookmark */;
+			8039F7E80FFE6C210007218B /* PBXTextBookmark */ = 8039F7E80FFE6C210007218B /* PBXTextBookmark */;
+			803A1B26101365A3004D0BAE /* PBXTextBookmark */ = 803A1B26101365A3004D0BAE /* PBXTextBookmark */;
+			80482BBA107208EC00C4DA40 /* PBXTextBookmark */ = 80482BBA107208EC00C4DA40 /* PBXTextBookmark */;
+			807AEEDB0FC59C4D0034FAD7 /* PlistBookmark */ = 807AEEDB0FC59C4D0034FAD7 /* PlistBookmark */;
+			807AEEDC0FC59C4D0034FAD7 /* PlistBookmark */ = 807AEEDC0FC59C4D0034FAD7 /* PlistBookmark */;
+			808F74DD0F87EFED00E2ADC6 /* PBXTextBookmark */ = 808F74DD0F87EFED00E2ADC6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 808F74D90F87EFB700E2ADC6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	802319990FB86C230086F2FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */;
+		name = "PuzzleViewController.m: 156";
+		rLen = 137;
+		rLoc = 4667;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 4520;
+	};
+	80231B0E0FB88B670086F2FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */;
+		name = "PuzzoodleAppDelegate.m: 77";
+		rLen = 0;
+		rLoc = 2680;
+		rType = 0;
+		vrLen = 1017;
+		vrLoc = 2055;
+	};
+	8039F7E70FFE6C210007218B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */;
+		name = "PuzzoodleAppDelegate.m: 75";
+		rLen = 47;
+		rLoc = 2551;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 2157;
+	};
+	8039F7E80FFE6C210007218B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE3335FE0E48ED8B003D0C04 /* PuzzleViewController.h */;
+		name = "PuzzleViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 405;
+	};
+	803A1B26101365A3004D0BAE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */;
+		name = "PuzzleViewController.m: 3";
+		rLen = 0;
+		rLoc = 66;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 0;
+	};
+	80482BBA107208EC00C4DA40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */;
+		name = "PuzzleViewController.m: 3";
+		rLen = 0;
+		rLoc = 66;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 0;
+	};
+	807AEEDB0FC59C4D0034FAD7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIInterfaceOrientation,
+		);
+		name = /Users/guidorama/Documents/XCode/Phil/Puzzoodle/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	807AEEDC0FC59C4D0034FAD7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIInterfaceOrientation,
+		);
+		name = /Users/guidorama/Documents/XCode/Phil/Puzzoodle/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	808F74CE0F87EF9900E2ADC6 /* Puzzoodle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Puzzoodle;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	808F74D90F87EFB700E2ADC6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	808F74DA0F87EFB700E2ADC6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	808F74DD0F87EFED00E2ADC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE3335FE0E48ED8B003D0C04 /* PuzzleViewController.h */;
+		name = "PuzzleViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 536;
+	};
+	BE3335FE0E48ED8B003D0C04 /* PuzzleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {641, 742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{405, 634}";
+		};
+	};
+	BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {780, 11102}}";
+			sepNavSelRange = "{66, 0}";
+			sepNavVisRange = "{0, 1027}";
+		};
+	};
+}

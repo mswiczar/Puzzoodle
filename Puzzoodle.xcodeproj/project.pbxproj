@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PuzzoodleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		BE07E1BE0E51F3440002A81E /* m001.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AA0E51F3440002A81E /* m001.png */; };
+		BE07E1BF0E51F3440002A81E /* m002.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AB0E51F3440002A81E /* m002.png */; };
+		BE07E1C00E51F3440002A81E /* m003.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AC0E51F3440002A81E /* m003.png */; };
+		BE07E1C10E51F3440002A81E /* m004.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AD0E51F3440002A81E /* m004.png */; };
+		BE07E1C20E51F3440002A81E /* m005.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AE0E51F3440002A81E /* m005.png */; };
+		BE07E1C30E51F3440002A81E /* m006.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1AF0E51F3440002A81E /* m006.png */; };
+		BE07E1C40E51F3440002A81E /* m007.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B00E51F3440002A81E /* m007.png */; };
+		BE07E1C50E51F3440002A81E /* m008.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B10E51F3440002A81E /* m008.png */; };
+		BE07E1C60E51F3440002A81E /* m009.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B20E51F3440002A81E /* m009.png */; };
+		BE07E1C70E51F3440002A81E /* m010.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B30E51F3440002A81E /* m010.png */; };
+		BE07E1C80E51F3440002A81E /* m011.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B40E51F3440002A81E /* m011.png */; };
+		BE07E1C90E51F3440002A81E /* m012.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B50E51F3440002A81E /* m012.png */; };
+		BE07E1CA0E51F3440002A81E /* m013.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B60E51F3440002A81E /* m013.png */; };
+		BE07E1CB0E51F3440002A81E /* m014.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B70E51F3440002A81E /* m014.png */; };
+		BE07E1CC0E51F3440002A81E /* m015.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B80E51F3440002A81E /* m015.png */; };
+		BE07E1CD0E51F3440002A81E /* m016.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1B90E51F3440002A81E /* m016.png */; };
+		BE07E1CE0E51F3440002A81E /* m017.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1BA0E51F3440002A81E /* m017.png */; };
+		BE07E1CF0E51F3440002A81E /* m018.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1BB0E51F3440002A81E /* m018.png */; };
+		BE07E1D00E51F3440002A81E /* m019.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1BC0E51F3440002A81E /* m019.png */; };
+		BE07E1D10E51F3440002A81E /* m020.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1BD0E51F3440002A81E /* m020.png */; };
+		BE07E1D50E51F3AF0002A81E /* MainPuzzleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE07E1D40E51F3AF0002A81E /* MainPuzzleWindow.xib */; };
+		BE07E1E50E51F53E0002A81E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE07E1E40E51F53E0002A81E /* MasterViewController.m */; };
+		BE07E2870E51FE120002A81E /* NGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BE07E2860E51FE120002A81E /* NGame.m */; };
+		BE0AA1C30E7B0A6E00B2335E /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AA1C20E7B0A6E00B2335E /* continue.png */; };
+		BE3336000E48ED8B003D0C04 /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */; };
+		BE3336490E48EE5F003D0C04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3336480E48EE5F003D0C04 /* QuartzCore.framework */; };
+		BE33364E0E48EE70003D0C04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33364D0E48EE70003D0C04 /* CoreGraphics.framework */; };
+		BE33365B0E48F3CD003D0C04 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33365A0E48F3CD003D0C04 /* icon.png */; };
+		BE3336720E48FB79003D0C04 /* MenuWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3336710E48FB79003D0C04 /* MenuWindow.xib */; };
+		BE33367D0E48FDB1003D0C04 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33367C0E48FDB1003D0C04 /* MenuViewController.m */; };
+		BE3339220E492515003D0C04 /* PuzzleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3339210E492515003D0C04 /* PuzzleWindow.xib */; };
+		BE333B0B0E4A7A14003D0C04 /* boardmaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE333AFC0E4A7A14003D0C04 /* boardmaster.jpg */; };
+		BE333B460E4A7BFD003D0C04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE333B450E4A7BFD003D0C04 /* Default.png */; };
+		BE333B4E0E4A801C003D0C04 /* NPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BE333B4D0E4A801C003D0C04 /* NPiece.m */; };
+		BE3803590E66F187003814CC /* boardmaster2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE3803580E66F187003814CC /* boardmaster2.jpg */; };
+		BE3803830E66F75D003814CC /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3803810E66F75D003814CC /* menu1.png */; };
+		BE3803840E66F75D003814CC /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3803820E66F75D003814CC /* menu2.png */; };
+		BE5F0A530E6DBA19002B4214 /* PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5F0A520E6DBA19002B4214 /* PM.png */; };
+		BE61638B0E737146003898D5 /* Haunted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6163890E737146003898D5 /* Haunted.jpg */; };
+		BE61638C0E737146003898D5 /* SpacedOut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE61638A0E737146003898D5 /* SpacedOut.jpg */; };
+		BE6CFEE60E6A413D00B192B9 /* DefaultBTN_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEDE0E6A413D00B192B9 /* DefaultBTN_01.png */; };
+		BE6CFEE70E6A413D00B192B9 /* DefaultBTN_02.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEDF0E6A413D00B192B9 /* DefaultBTN_02.png */; };
+		BE6CFEE80E6A413D00B192B9 /* DefaultBTN_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE00E6A413D00B192B9 /* DefaultBTN_03.png */; };
+		BE6CFEE90E6A413D00B192B9 /* DefaultBTN_04.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE10E6A413D00B192B9 /* DefaultBTN_04.png */; };
+		BE6CFEEA0E6A413D00B192B9 /* DefaultBTNOver_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE20E6A413D00B192B9 /* DefaultBTNOver_01.png */; };
+		BE6CFEEB0E6A413D00B192B9 /* DefaultBTNOver_02.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE30E6A413D00B192B9 /* DefaultBTNOver_02.png */; };
+		BE6CFEEC0E6A413D00B192B9 /* DefaultBTNOver_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE40E6A413D00B192B9 /* DefaultBTNOver_03.png */; };
+		BE6CFEED0E6A413D00B192B9 /* DefaultBTNOver_04.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6CFEE50E6A413D00B192B9 /* DefaultBTNOver_04.png */; };
+		BE7B68910E99BCEE003B006C /* boardmaster3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE7B68900E99BCEE003B006C /* boardmaster3.jpg */; };
+		BE8E11430E4A9A31007A2DAB /* HelpWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8E11420E4A9A31007A2DAB /* HelpWindow.xib */; };
+		BE8E11460E4A9B9D007A2DAB /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E11450E4A9B9D007A2DAB /* HelpViewController.m */; };
+		BE9702040E7370CC005E9826 /* Shipwrecked.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9702030E7370CC005E9826 /* Shipwrecked.jpg */; };
+		BEA7E0C60E4D0BC700AC42F6 /* puzzoodle.sql in Resources */ = {isa = PBXBuildFile; fileRef = BEA7E0C50E4D0BC700AC42F6 /* puzzoodle.sql */; };
+		BEA7E0D70E4D0C7500AC42F6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA7E0D60E4D0C7500AC42F6 /* libsqlite3.0.dylib */; };
+		BEC20BDB0E6A4B2000CDEDF2 /* Help1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC20BD70E6A4B2000CDEDF2 /* Help1.png */; };
+		BEC20BDC0E6A4B2000CDEDF2 /* Help2.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC20BD80E6A4B2000CDEDF2 /* Help2.png */; };
+		BEC20BDD0E6A4B2000CDEDF2 /* Help3.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC20BD90E6A4B2000CDEDF2 /* Help3.png */; };
+		BEC20BDE0E6A4B2000CDEDF2 /* Help4.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC20BDA0E6A4B2000CDEDF2 /* Help4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PuzzoodleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzoodleAppDelegate.h; path = Classes/PuzzoodleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzoodleAppDelegate.m; path = Classes/PuzzoodleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Puzzoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Puzzoodle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puzzoodle_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE07E1AA0E51F3440002A81E /* m001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m001.png; path = Images/Pieces/m001.png; sourceTree = "<group>"; };
+		BE07E1AB0E51F3440002A81E /* m002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m002.png; path = Images/Pieces/m002.png; sourceTree = "<group>"; };
+		BE07E1AC0E51F3440002A81E /* m003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m003.png; path = Images/Pieces/m003.png; sourceTree = "<group>"; };
+		BE07E1AD0E51F3440002A81E /* m004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m004.png; path = Images/Pieces/m004.png; sourceTree = "<group>"; };
+		BE07E1AE0E51F3440002A81E /* m005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m005.png; path = Images/Pieces/m005.png; sourceTree = "<group>"; };
+		BE07E1AF0E51F3440002A81E /* m006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m006.png; path = Images/Pieces/m006.png; sourceTree = "<group>"; };
+		BE07E1B00E51F3440002A81E /* m007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m007.png; path = Images/Pieces/m007.png; sourceTree = "<group>"; };
+		BE07E1B10E51F3440002A81E /* m008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m008.png; path = Images/Pieces/m008.png; sourceTree = "<group>"; };
+		BE07E1B20E51F3440002A81E /* m009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m009.png; path = Images/Pieces/m009.png; sourceTree = "<group>"; };
+		BE07E1B30E51F3440002A81E /* m010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m010.png; path = Images/Pieces/m010.png; sourceTree = "<group>"; };
+		BE07E1B40E51F3440002A81E /* m011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m011.png; path = Images/Pieces/m011.png; sourceTree = "<group>"; };
+		BE07E1B50E51F3440002A81E /* m012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m012.png; path = Images/Pieces/m012.png; sourceTree = "<group>"; };
+		BE07E1B60E51F3440002A81E /* m013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m013.png; path = Images/Pieces/m013.png; sourceTree = "<group>"; };
+		BE07E1B70E51F3440002A81E /* m014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m014.png; path = Images/Pieces/m014.png; sourceTree = "<group>"; };
+		BE07E1B80E51F3440002A81E /* m015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m015.png; path = Images/Pieces/m015.png; sourceTree = "<group>"; };
+		BE07E1B90E51F3440002A81E /* m016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m016.png; path = Images/Pieces/m016.png; sourceTree = "<group>"; };
+		BE07E1BA0E51F3440002A81E /* m017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m017.png; path = Images/Pieces/m017.png; sourceTree = "<group>"; };
+		BE07E1BB0E51F3440002A81E /* m018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m018.png; path = Images/Pieces/m018.png; sourceTree = "<group>"; };
+		BE07E1BC0E51F3440002A81E /* m019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m019.png; path = Images/Pieces/m019.png; sourceTree = "<group>"; };
+		BE07E1BD0E51F3440002A81E /* m020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m020.png; path = Images/Pieces/m020.png; sourceTree = "<group>"; };
+		BE07E1D40E51F3AF0002A81E /* MainPuzzleWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainPuzzleWindow.xib; sourceTree = "<group>"; };
+		BE07E1E30E51F53E0002A81E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BE07E1E40E51F53E0002A81E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BE07E2850E51FE120002A81E /* NGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGame.h; sourceTree = "<group>"; };
+		BE07E2860E51FE120002A81E /* NGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGame.m; sourceTree = "<group>"; };
+		BE0AA1C20E7B0A6E00B2335E /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continue.png; path = Images/Screen/continue.png; sourceTree = "<group>"; };
+		BE3335FE0E48ED8B003D0C04 /* PuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleViewController.h; path = Classes/PuzzleViewController.h; sourceTree = "<group>"; };
+		BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleViewController.m; path = Classes/PuzzleViewController.m; sourceTree = "<group>"; };
+		BE3336480E48EE5F003D0C04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE33364D0E48EE70003D0C04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE33365A0E48F3CD003D0C04 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BE3336710E48FB79003D0C04 /* MenuWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuWindow.xib; sourceTree = "<group>"; };
+		BE33367B0E48FDB1003D0C04 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		BE33367C0E48FDB1003D0C04 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		BE3339210E492515003D0C04 /* PuzzleWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuzzleWindow.xib; sourceTree = "<group>"; };
+		BE333AFC0E4A7A14003D0C04 /* boardmaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = boardmaster.jpg; path = Images/Screen/boardmaster.jpg; sourceTree = "<group>"; };
+		BE333B450E4A7BFD003D0C04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Screen/Default.png; sourceTree = "<group>"; };
+		BE333B4C0E4A801C003D0C04 /* NPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPiece.h; sourceTree = "<group>"; };
+		BE333B4D0E4A801C003D0C04 /* NPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPiece.m; sourceTree = "<group>"; };
+		BE3803580E66F187003814CC /* boardmaster2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = boardmaster2.jpg; path = Images/Screen/boardmaster2.jpg; sourceTree = "<group>"; };
+		BE3803810E66F75D003814CC /* menu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu1.png; path = Images/Screen/menu1.png; sourceTree = "<group>"; };
+		BE3803820E66F75D003814CC /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu2.png; path = Images/Screen/menu2.png; sourceTree = "<group>"; };
+		BE5F0A520E6DBA19002B4214 /* PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PM.png; path = Images/Screen/PM.png; sourceTree = "<group>"; };
+		BE6163890E737146003898D5 /* Haunted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Haunted.jpg; path = Images/Puzzles/Haunted.jpg; sourceTree = "<group>"; };
+		BE61638A0E737146003898D5 /* SpacedOut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SpacedOut.jpg; path = Images/Puzzles/SpacedOut.jpg; sourceTree = "<group>"; };
+		BE6CFEDE0E6A413D00B192B9 /* DefaultBTN_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTN_01.png; path = Images/Screen/DefaultBTN_01.png; sourceTree = "<group>"; };
+		BE6CFEDF0E6A413D00B192B9 /* DefaultBTN_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTN_02.png; path = Images/Screen/DefaultBTN_02.png; sourceTree = "<group>"; };
+		BE6CFEE00E6A413D00B192B9 /* DefaultBTN_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTN_03.png; path = Images/Screen/DefaultBTN_03.png; sourceTree = "<group>"; };
+		BE6CFEE10E6A413D00B192B9 /* DefaultBTN_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTN_04.png; path = Images/Screen/DefaultBTN_04.png; sourceTree = "<group>"; };
+		BE6CFEE20E6A413D00B192B9 /* DefaultBTNOver_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTNOver_01.png; path = Images/Screen/DefaultBTNOver_01.png; sourceTree = "<group>"; };
+		BE6CFEE30E6A413D00B192B9 /* DefaultBTNOver_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTNOver_02.png; path = Images/Screen/DefaultBTNOver_02.png; sourceTree = "<group>"; };
+		BE6CFEE40E6A413D00B192B9 /* DefaultBTNOver_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTNOver_03.png; path = Images/Screen/DefaultBTNOver_03.png; sourceTree = "<group>"; };
+		BE6CFEE50E6A413D00B192B9 /* DefaultBTNOver_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultBTNOver_04.png; path = Images/Screen/DefaultBTNOver_04.png; sourceTree = "<group>"; };
+		BE7B68900E99BCEE003B006C /* boardmaster3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = boardmaster3.jpg; path = Images/Screen/boardmaster3.jpg; sourceTree = "<group>"; };
+		BE8E11420E4A9A31007A2DAB /* HelpWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpWindow.xib; sourceTree = "<group>"; };
+		BE8E11440E4A9B9D007A2DAB /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		BE8E11450E4A9B9D007A2DAB /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		BE9702030E7370CC005E9826 /* Shipwrecked.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shipwrecked.jpg; path = Images/Puzzles/Shipwrecked.jpg; sourceTree = "<group>"; };
+		BEA7E0C50E4D0BC700AC42F6 /* puzzoodle.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = puzzoodle.sql; sourceTree = "<group>"; };
+		BEA7E0D60E4D0C7500AC42F6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BEC20BD70E6A4B2000CDEDF2 /* Help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Help1.png; path = Images/Screen/Help1.png; sourceTree = "<group>"; };
+		BEC20BD80E6A4B2000CDEDF2 /* Help2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Help2.png; path = Images/Screen/Help2.png; sourceTree = "<group>"; };
+		BEC20BD90E6A4B2000CDEDF2 /* Help3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Help3.png; path = Images/Screen/Help3.png; sourceTree = "<group>"; };
+		BEC20BDA0E6A4B2000CDEDF2 /* Help4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Help4.png; path = Images/Screen/Help4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				BE3336490E48EE5F003D0C04 /* QuartzCore.framework in Frameworks */,
+				BE33364E0E48EE70003D0C04 /* CoreGraphics.framework in Frameworks */,
+				BEA7E0D70E4D0C7500AC42F6 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE333B4C0E4A801C003D0C04 /* NPiece.h */,
+				BE333B4D0E4A801C003D0C04 /* NPiece.m */,
+				BE07E2850E51FE120002A81E /* NGame.h */,
+				BE07E2860E51FE120002A81E /* NGame.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Puzzoodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BE07E2880E51FE980002A81E /* Delegate */,
+				BE33367A0E48FD97003D0C04 /* Controllers */,
+				BE3335A90E48ECDF003D0C04 /* Images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE8E113D0E4A99F7007A2DAB /* Xib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Puzzoodle_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEA7E0C50E4D0BC700AC42F6 /* puzzoodle.sql */,
+				BE33365A0E48F3CD003D0C04 /* icon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA7E0D60E4D0C7500AC42F6 /* libsqlite3.0.dylib */,
+				BE33364D0E48EE70003D0C04 /* CoreGraphics.framework */,
+				BE3336480E48EE5F003D0C04 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE07E1A80E51F30C0002A81E /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				BE07E1AA0E51F3440002A81E /* m001.png */,
+				BE07E1AB0E51F3440002A81E /* m002.png */,
+				BE07E1AC0E51F3440002A81E /* m003.png */,
+				BE07E1AD0E51F3440002A81E /* m004.png */,
+				BE07E1AE0E51F3440002A81E /* m005.png */,
+				BE07E1AF0E51F3440002A81E /* m006.png */,
+				BE07E1B00E51F3440002A81E /* m007.png */,
+				BE07E1B10E51F3440002A81E /* m008.png */,
+				BE07E1B20E51F3440002A81E /* m009.png */,
+				BE07E1B30E51F3440002A81E /* m010.png */,
+				BE07E1B40E51F3440002A81E /* m011.png */,
+				BE07E1B50E51F3440002A81E /* m012.png */,
+				BE07E1B60E51F3440002A81E /* m013.png */,
+				BE07E1B70E51F3440002A81E /* m014.png */,
+				BE07E1B80E51F3440002A81E /* m015.png */,
+				BE07E1B90E51F3440002A81E /* m016.png */,
+				BE07E1BA0E51F3440002A81E /* m017.png */,
+				BE07E1BB0E51F3440002A81E /* m018.png */,
+				BE07E1BC0E51F3440002A81E /* m019.png */,
+				BE07E1BD0E51F3440002A81E /* m020.png */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		BE07E2880E51FE980002A81E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PuzzoodleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PuzzoodleAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		BE3335A90E48ECDF003D0C04 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE3803800E66F738003814CC /* Menu */,
+				BE333B1A0E4A7A19003D0C04 /* Puzzles */,
+				BE3336610E48F53D003D0C04 /* Screen */,
+				BE3336600E48F528003D0C04 /* Pieces */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BE3336600E48F528003D0C04 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				BE07E1A80E51F30C0002A81E /* Master */,
+			);
+			name = Pieces;
+			sourceTree = "<group>";
+		};
+		BE3336610E48F53D003D0C04 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BE7B68900E99BCEE003B006C /* boardmaster3.jpg */,
+				BE0AA1C20E7B0A6E00B2335E /* continue.png */,
+				BE5F0A520E6DBA19002B4214 /* PM.png */,
+				BE6CFEDE0E6A413D00B192B9 /* DefaultBTN_01.png */,
+				BE6CFEDF0E6A413D00B192B9 /* DefaultBTN_02.png */,
+				BE6CFEE00E6A413D00B192B9 /* DefaultBTN_03.png */,
+				BE6CFEE10E6A413D00B192B9 /* DefaultBTN_04.png */,
+				BE6CFEE20E6A413D00B192B9 /* DefaultBTNOver_01.png */,
+				BE6CFEE30E6A413D00B192B9 /* DefaultBTNOver_02.png */,
+				BE6CFEE40E6A413D00B192B9 /* DefaultBTNOver_03.png */,
+				BE6CFEE50E6A413D00B192B9 /* DefaultBTNOver_04.png */,
+				BE3803580E66F187003814CC /* boardmaster2.jpg */,
+				BE333B450E4A7BFD003D0C04 /* Default.png */,
+				BE333AFC0E4A7A14003D0C04 /* boardmaster.jpg */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+		BE33367A0E48FD97003D0C04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E11440E4A9B9D007A2DAB /* HelpViewController.h */,
+				BE8E11450E4A9B9D007A2DAB /* HelpViewController.m */,
+				BE33367B0E48FDB1003D0C04 /* MenuViewController.h */,
+				BE33367C0E48FDB1003D0C04 /* MenuViewController.m */,
+				BE07E1E30E51F53E0002A81E /* MasterViewController.h */,
+				BE07E1E40E51F53E0002A81E /* MasterViewController.m */,
+				BE3335FE0E48ED8B003D0C04 /* PuzzleViewController.h */,
+				BE3335FF0E48ED8B003D0C04 /* PuzzleViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BE333B1A0E4A7A19003D0C04 /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+				BE6163890E737146003898D5 /* Haunted.jpg */,
+				BE61638A0E737146003898D5 /* SpacedOut.jpg */,
+				BE9702030E7370CC005E9826 /* Shipwrecked.jpg */,
+			);
+			name = Puzzles;
+			sourceTree = "<group>";
+		};
+		BE3803800E66F738003814CC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BEC20BD70E6A4B2000CDEDF2 /* Help1.png */,
+				BEC20BD80E6A4B2000CDEDF2 /* Help2.png */,
+				BEC20BD90E6A4B2000CDEDF2 /* Help3.png */,
+				BEC20BDA0E6A4B2000CDEDF2 /* Help4.png */,
+				BE3803810E66F75D003814CC /* menu1.png */,
+				BE3803820E66F75D003814CC /* menu2.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		BE8E113D0E4A99F7007A2DAB /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				BE3339210E492515003D0C04 /* PuzzleWindow.xib */,
+				BE3336710E48FB79003D0C04 /* MenuWindow.xib */,
+				BE8E11420E4A9A31007A2DAB /* HelpWindow.xib */,
+				BE07E1D40E51F3AF0002A81E /* MainPuzzleWindow.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Puzzoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Puzzoodle" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzoodle;
+			productName = Puzzoodle;
+			productReference = 1D6058910D05DD3D006BFB54 /* Puzzoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Puzzoodle" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Puzzoodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE33365B0E48F3CD003D0C04 /* icon.png in Resources */,
+				BE3336720E48FB79003D0C04 /* MenuWindow.xib in Resources */,
+				BE3339220E492515003D0C04 /* PuzzleWindow.xib in Resources */,
+				BE333B0B0E4A7A14003D0C04 /* boardmaster.jpg in Resources */,
+				BE333B460E4A7BFD003D0C04 /* Default.png in Resources */,
+				BE8E11430E4A9A31007A2DAB /* HelpWindow.xib in Resources */,
+				BEA7E0C60E4D0BC700AC42F6 /* puzzoodle.sql in Resources */,
+				BE07E1BE0E51F3440002A81E /* m001.png in Resources */,
+				BE07E1BF0E51F3440002A81E /* m002.png in Resources */,
+				BE07E1C00E51F3440002A81E /* m003.png in Resources */,
+				BE07E1C10E51F3440002A81E /* m004.png in Resources */,
+				BE07E1C20E51F3440002A81E /* m005.png in Resources */,
+				BE07E1C30E51F3440002A81E /* m006.png in Resources */,
+				BE07E1C40E51F3440002A81E /* m007.png in Resources */,
+				BE07E1C50E51F3440002A81E /* m008.png in Resources */,
+				BE07E1C60E51F3440002A81E /* m009.png in Resources */,
+				BE07E1C70E51F3440002A81E /* m010.png in Resources */,
+				BE07E1C80E51F3440002A81E /* m011.png in Resources */,
+				BE07E1C90E51F3440002A81E /* m012.png in Resources */,
+				BE07E1CA0E51F3440002A81E /* m013.png in Resources */,
+				BE07E1CB0E51F3440002A81E /* m014.png in Resources */,
+				BE07E1CC0E51F3440002A81E /* m015.png in Resources */,
+				BE07E1CD0E51F3440002A81E /* m016.png in Resources */,
+				BE07E1CE0E51F3440002A81E /* m017.png in Resources */,
+				BE07E1CF0E51F3440002A81E /* m018.png in Resources */,
+				BE07E1D00E51F3440002A81E /* m019.png in Resources */,
+				BE07E1D10E51F3440002A81E /* m020.png in Resources */,
+				BE07E1D50E51F3AF0002A81E /* MainPuzzleWindow.xib in Resources */,
+				BE3803590E66F187003814CC /* boardmaster2.jpg in Resources */,
+				BE3803830E66F75D003814CC /* menu1.png in Resources */,
+				BE3803840E66F75D003814CC /* menu2.png in Resources */,
+				BE6CFEE60E6A413D00B192B9 /* DefaultBTN_01.png in Resources */,
+				BE6CFEE70E6A413D00B192B9 /* DefaultBTN_02.png in Resources */,
+				BE6CFEE80E6A413D00B192B9 /* DefaultBTN_03.png in Resources */,
+				BE6CFEE90E6A413D00B192B9 /* DefaultBTN_04.png in Resources */,
+				BE6CFEEA0E6A413D00B192B9 /* DefaultBTNOver_01.png in Resources */,
+				BE6CFEEB0E6A413D00B192B9 /* DefaultBTNOver_02.png in Resources */,
+				BE6CFEEC0E6A413D00B192B9 /* DefaultBTNOver_03.png in Resources */,
+				BE6CFEED0E6A413D00B192B9 /* DefaultBTNOver_04.png in Resources */,
+				BEC20BDB0E6A4B2000CDEDF2 /* Help1.png in Resources */,
+				BEC20BDC0E6A4B2000CDEDF2 /* Help2.png in Resources */,
+				BEC20BDD0E6A4B2000CDEDF2 /* Help3.png in Resources */,
+				BEC20BDE0E6A4B2000CDEDF2 /* Help4.png in Resources */,
+				BE5F0A530E6DBA19002B4214 /* PM.png in Resources */,
+				BE9702040E7370CC005E9826 /* Shipwrecked.jpg in Resources */,
+				BE61638B0E737146003898D5 /* Haunted.jpg in Resources */,
+				BE61638C0E737146003898D5 /* SpacedOut.jpg in Resources */,
+				BE0AA1C30E7B0A6E00B2335E /* continue.png in Resources */,
+				BE7B68910E99BCEE003B006C /* boardmaster3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PuzzoodleAppDelegate.m in Sources */,
+				BE3336000E48ED8B003D0C04 /* PuzzleViewController.m in Sources */,
+				BE33367D0E48FDB1003D0C04 /* MenuViewController.m in Sources */,
+				BE333B4E0E4A801C003D0C04 /* NPiece.m in Sources */,
+				BE8E11460E4A9B9D007A2DAB /* HelpViewController.m in Sources */,
+				BE07E1E50E51F53E0002A81E /* MasterViewController.m in Sources */,
+				BE07E2870E51FE120002A81E /* NGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Puzzoodle_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Puzzoodle;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Puzzoodle_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Puzzoodle;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Puzzoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Puzzoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
